@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 
 namespace Service
 {
+
     public class SportsBetService : ISportsBetService
     {
         private IRepository<SportsBet> sportsbetRepository;
